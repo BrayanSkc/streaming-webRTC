@@ -1,0 +1,33 @@
+/* negro: #000000; 
+ blanco: #000000; 
+ prim: #6D6C6C,
+ Secundario: #D30C42; 
+ Sec: #D30C42; */
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+.button > i {
+  margin: 0 5px;
+}
+.button-primary {
+  background: #000000;
+}
+
+.button-secondary {
+  background: #d30c42;
+}
+
+.button-primary:active {
+  background: #6d6c6c;
+}
+
+.button-secondary:active {
+  background: #e4587d;
+}

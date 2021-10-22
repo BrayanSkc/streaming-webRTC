@@ -1,0 +1,33 @@
+/* negro: #000000; 
+ blanco: #000000; 
+ prim: #6D6C6C,
+ Secundario: #D30C42; 
+ Sec: #D30C42; */
+
+.input-element {
+  padding: 0.625rem 1rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 0.875rem;
+  padding-left: 12%;
+  width: 100%;
+}
+.input-element-default {
+  border: 1px solid #262627;
+}
+.input-element-error {
+  border: 2px solid #D30C42;
+}
+
+.input-element:focus-visible {
+  outline: none;
+}
+
+.input-element:disabled {
+  background: #aebdd675;
+}
+
+.input-element::-webkit-input-placeholder {
+  font-size: 0.875rem;
+}
